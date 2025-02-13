@@ -7,6 +7,6 @@
 by *Fu-Yun Wang<sup>1</sup>, Yunhao Shui<sup>2</sup>, Jingtan Piao<sup>1</sup>, Keqiang Sun<sup>1</sup>, 
 Hongsheng Li<sup>1</sup>*
 
-<sup>1</sup>CUHK-MMLab   <sup>2</sup>Shanghai Jiaotong University  
+<sup>1</sup>CUHK-MMLab   <sup>2</sup>Shanghai Jiao Tong University  
 
 </div>
