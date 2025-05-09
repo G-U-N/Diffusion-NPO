@@ -1,11 +1,16 @@
 <div align="center">
+
 # Diffusion-NPO: Negative Preference Optimization for Better Preference Aligned Generation of Diffusion Models
+
 
 By Fu-Yun Wang¹, Yunhao Shui², Jingtan Piao¹, Keqiang Sun¹, Hongsheng Li¹
 <br>
 ¹CUHK-MMLab ²Shanghai Jiao Tong University
 
+
 [![Paper](https://img.shields.io/badge/Paper-ICLR%202025-blue)](https://arxiv.org/abs/XXXX.XXXXX) [![License](https://img.shields.io/badge/license-Apache%202.0-blue?style=flat-square)](LICENSE)
+
+</div>
 
 ## Overview
 
