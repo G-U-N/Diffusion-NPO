@@ -1,0 +1,21 @@
+accelerate launch train_dpo_bad_xl.py \
+  --pretrained_model_name_or_path=/mnt2/wangfuyun/models/stable-diffusion-xl-base-1.0  \
+  --pretrained_vae_model_name_or_path=/mnt/kqsun/Tasks/sdxl-vae-fp16-fix \
+  --output_dir="real-outputs/diffusion-sdxl-dpo-bad-beta2000" \
+  --mixed_precision="fp16" \
+  --dataset_name=yuvalkirstain/pickapic_v1 \
+  --train_batch_size=30 \
+  --gradient_accumulation_steps=2 \
+  --gradient_checkpointing \
+  --use_8bit_adam \
+  --rank=8 \
+  --beta_dpo=2000 \
+  --learning_rate=5e-6 \
+  --report_to="wandb" \
+  --lr_scheduler="constant" \
+  --resume_from_checkpoint="latest" \
+  --lr_warmup_steps=0 \
+  --max_train_steps=5000 \
+  --checkpointing_steps=500 \
+  --run_validation --validation_steps=500 \
+  --seed=0  2>&1 | tee -a diffusion-dpo-real-sdxl-beta2000.log &

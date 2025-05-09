@@ -1,0 +1,22 @@
+accelerate launch --main_process_port 29501 train_dpo_bad.py \
+  --pretrained_model_name_or_path=/mnt2/wangfuyun/models/stable-diffusion-v1-5 \
+  --output_dir="real-outputs/diffusion-dpo-bad-beta500" \
+  --mixed_precision="fp16" \
+  --dataset_name=yuvalkirstain/pickapic_v1 \
+  --resolution=512 \
+  --train_batch_size=64 \
+  --gradient_accumulation_steps=1 \
+  --gradient_checkpointing \
+  --use_8bit_adam \
+  --rank=8 \
+  --beta_dpo=500 \
+  --learning_rate=5e-6 \
+  --report_to="tensorboard" \
+  --lr_scheduler="constant" \
+  --lr_warmup_steps=0 \
+  --enable_xformers_memory_efficient_attention \
+  --max_train_steps=5000 \
+  --checkpointing_steps=1000 \
+  --tracker_name="diffusion-dpo-bad" \
+  --run_validation --validation_steps=500 \
+  --seed=0  2>&1 | tee -a diffusion-dpo-real-sd-beta500.log 
