@@ -10,6 +10,8 @@ By Fu-Yun Wang¹, Yunhao Shui², Jingtan Piao¹, Keqiang Sun¹, Hongsheng Li¹
 
 [![Paper](https://img.shields.io/badge/Paper-ICLR%202025-blue)](https://arxiv.org/abs/XXXX.XXXXX) [![License](https://img.shields.io/badge/license-Apache%202.0-blue?style=flat-square)](LICENSE)
 
+![preface_teaser](https://github.com/user-attachments/assets/aaa14bd6-aff3-4148-8933-da6007c602a3)
+
 </div>
 
 ## Overview
