@@ -123,7 +123,7 @@ Below are example comparisons of generations with and without NPO:
 ## Model Zoo
 
 Pre-trained NPO weight offsets are available for the following models:
-- Stable Diffusion v1-5: [Download]([https://huggingface.co/G-U-N/diffusion-npo/sd15_npo](https://huggingface.co/wangfuyun/Diffusion-NPO/tree/main/weights))
+- Stable Diffusion v1-5: [Download](https://huggingface.co/wangfuyun/Diffusion-NPO/tree/main/weights)
 - Stable Diffusion XL: [Download](https://huggingface.co/wangfuyun/Diffusion-NPO/tree/main/weights)
 
 Base model weights can be obtained from:
