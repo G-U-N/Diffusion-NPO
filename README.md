@@ -1,11 +1,18 @@
 <div align="center">
+
 # Diffusion-NPO: Negative Preference Optimization for Better Preference Aligned Generation of Diffusion Models
+
 
 By Fu-Yun Wang¹, Yunhao Shui², Jingtan Piao¹, Keqiang Sun¹, Hongsheng Li¹
 <br>
 ¹CUHK-MMLab ²Shanghai Jiao Tong University
 
+
 [![Paper](https://img.shields.io/badge/Paper-ICLR%202025-blue)](https://arxiv.org/abs/XXXX.XXXXX) [![License](https://img.shields.io/badge/license-Apache%202.0-blue?style=flat-square)](LICENSE)
+
+![preface_teaser](https://github.com/user-attachments/assets/aaa14bd6-aff3-4148-8933-da6007c602a3)
+
+</div>
 
 ## Overview
 
@@ -118,10 +125,8 @@ Below are example comparisons of generations with and without NPO:
 ## Model Zoo
 
 Pre-trained NPO weight offsets are available for the following models:
-- Stable Diffusion v1-5: [Download](https://huggingface.co/G-U-N/diffusion-npo/sd15_npo)
-- Stable Diffusion XL: [Download](https://huggingface.co/G-U-N/diffusion-npo/sdxl_npo)
-- DreamShaper: [Download](https://huggingface.co/G-U-N/diffusion-npo/dreamshaper_npo)
-- VideoCrafter2: [Download](https://huggingface.co/G-U-N/diffusion-npo/videocrafter2_npo)
+- Stable Diffusion v1-5: [Download](https://huggingface.co/wangfuyun/Diffusion-NPO/tree/main/weights)
+- Stable Diffusion XL: [Download](https://huggingface.co/wangfuyun/Diffusion-NPO/tree/main/weights)
 
 Base model weights can be obtained from:
 - [Stable Diffusion v1-5](https://huggingface.co/stabilityai/stable-diffusion-v1-5)
