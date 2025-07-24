@@ -1,4 +1,4 @@
-**🙋TLDR: Diffusion-NPO is a general design to modify existing methods of preference optimization into negative preference optimization method, including**
+**🙋TLDR: Diffusion-NPO is a general design to modify existing methods of preference optimization into negative preference optimization methods, including**
 
 - **Reinforcement Learning.** We build on the baseline of [SPO](https://github.com/RockeyCoss/SPO).
 - **Direct Preference Optimization.** We build on the baseline of [Diffusion-DPO](https://github.com/SalesforceAIResearch/DiffusionDPO).
