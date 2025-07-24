@@ -1,8 +1,8 @@
 **🙋TLDR: Diffusion-NPO is a general design to modify existing methods of preference optimization into negative preference optimization method, including**
 
-- **Reinforcement Learning.** We build on the baseline of SPO.
-- **Direct Preference Optimization.** We build on the baseline of Diffusion-DPO.
-- **Differentialable Rewarad.** We build on the baseline of VADER. 
+- **Reinforcement Learning.** We build on the baseline of [SPO](https://github.com/RockeyCoss/SPO).
+- **Direct Preference Optimization.** We build on the baseline of [Diffusion-DPO](https://github.com/SalesforceAIResearch/DiffusionDPO).
+- **Differentialable Rewarad.** We build on the baseline of [VADER](https://github.com/mihirp1998/VADER). 
 
 <div align="center">
 
