@@ -21,7 +21,7 @@ This repository contains the official implementation for **Diffusion-NPO: Negati
 Diffusion-NPO introduces **Negative Preference Optimization (NPO)**, a novel plug-and-play approach to enhance the alignment of diffusion models with human preferences. By training a model to understand and avoid undesirable outputs, NPO improves the effectiveness of classifier-free guidance (CFG) in diffusion models, leading to superior image and video generation quality.
 
 
-**Diffusion-NPO is a general design to modify existing methods of preference optimization into negative preference optimization method, including**
+**🙋TLDR: Diffusion-NPO is a general design to modify existing methods of preference optimization into negative preference optimization method, including**
 
 - **Reinforcement Learning.** We build on the baseline of SPO.
 - **Direct Preference Optimization.** We build on the baseline of Diffusion-DPO.
